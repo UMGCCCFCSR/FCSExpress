@@ -1,0 +1,29 @@
+FCSExpress: Display Tube Name 
+
+Open Data List Formatting Window 
+
+Graphical user interface, application
+
+Description automatically generated 
+
+Add a new Keyword 
+
+Graphical user interface, text, application
+
+Description automatically generated 
+
+Scroll to the bottom of the list and select “Tube Name,” and click OK 
+
+Graphical user interface, text, application, email
+
+Description automatically generated 
+
+Drag column header to right to see tube name  
+
+Graphical user interface, application
+
+Description automatically generated 
+
+Graphical user interface, text, application, chat or text message
+
+Description automatically generated 

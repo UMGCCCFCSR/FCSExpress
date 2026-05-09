@@ -1,0 +1,19 @@
+1. Visit  https://www.denovosoftware.com/RegisterForSiteLicense/?SignupCode=UMGCCC+FCSS  
+
+2. Register and create De Novo Software Account Credentials.  
+
+3. You will receive the approval email within one day.  
+
+4. Download at:  https://denovosoftware.com/full-access/download-landing/ 
+
+5. Launch the installer. Choose “Stand Alone” when prompted.  
+
+6. Configure: Run FCS Express 7. Follow the wizard:  
+
+1st option “Automatically through this wizard, I already have a De Novo Software account”.  
+
+Enter your De Novo Software Account credentials.  
+
+Choose configuration file for your Flow Cytometry site license.  
+
+Complete the wizard and FCS Express 7 will launch.  

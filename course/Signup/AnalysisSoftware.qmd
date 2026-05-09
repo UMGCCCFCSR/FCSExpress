@@ -1,0 +1,21 @@
+FlowCore Guide: Analysis Dongles 
+
+FCS Express 
+
+New Users 
+
+Send user the e-mail with instructions to create an account 
+
+See document titled FCSExpress_SiteLicense_eMail.docx 
+
+Once you get e-mail stating a new user has signed up, click the link to approve  
+
+To manage users, go to security tab under the file section in the FCS Express Software 
+
+Flowjo 
+
+Physical Dongles 
+
+PC and Mac 
+
+Locked in file cabinet on LSR/Canto side of main lab 

@@ -1,0 +1,33 @@
+Hey _____, 
+
+  
+
+   Here are the instructions for creating an FCSExpress account and using our license.  If you have any issues, please let me know. 
+
+  
+
+To upgrade to FCS Express 7:  
+
+Visit  https://www.denovosoftware.com/RegisterForSiteLicense/?SignupCode=UMGCCC+FCSS  
+
+Login with your De Novo Software Account Credentials.  
+
+Once you have received an email message that your account has been approved proceed to the next steps. Please note this could take some time while your site license admin approves your account. Contact your site license administrator if you have not received approval.   
+
+DOWNLOAD:  Visit https://denovosoftware.com/full-access/download-landing/ to download FCS Express 7.  
+
+INSTALL: Launch the FCS Express 7 installer and follow the steps in the wizard to complete the installation. Make sure to choose “Stand Alone” when prompted.  
+
+CONFIGURE: Run FCS Express 7. Follow the steps in the configuration file wizard.  
+
+Choose the 1st option for “Automatically through this wizard, I already have a De Novo Software account”.  
+
+Enter your De Novo Software Account credentials.  
+
+Choose configuration file for your Flow Cytometry site license.  
+
+Complete the wizard and FCS Express 7 will launch.  
+
+Analyze: Enter your De Novo Software account credentials when prompted to start analyzing in FCS Express.  
+
+ 
