@@ -1,6 +1,94 @@
 ---
-title: "Placeholder"
+title: "How-to-use FCS Express"
 format: html
 ---
 
-This is a placeholder
+# Installation
+
+First, navigate to the [FCSExpress](https://denovosoftware.com/full-access/download-landing/) website, and select the download optiom for your operating system (Windows or MacOS)
+
+![](/images/Installation/00_Download.png)
+
+![](/images/Installation/01_Install.png)
+
+![](/images/Installation/02_License.png)
+
+![](/images/Installation/03_Privacy.png)
+
+![](/images/Installation/04_StandAlone.png)
+
+![](/images/Installation/05_ProgramFiles.png)
+
+![](/images/Installation/06_Install.png)
+
+![](/images/Installation/07_Patience.png)
+
+![](/images/Installation/08_Done.png)
+
+With FCSExpress now installed, proceed to open the software. 
+
+# Getting Started
+
+![](/images/Intro/01_Landing.png)
+
+![](/images/Intro/02_CheckingForUpdates.png)
+
+![](/images/Intro/03_NewLayout.png)
+
+![](/images/Intro/04_OpenView.png)
+
+![](/images/Intro/05_FileDropdown.png)
+
+![](/images/Intro/06_SaveAs.png)
+
+![](/images/Intro/07_SaveLocation.png)
+
+![](/images/Intro/08_AddDataFile.png)
+
+![](/images/Intro/09_OpenDataFiles.png)
+
+![](/images/Intro/10_DataLoaded.png)
+
+![](/images/Intro/11_Density.png)
+
+![](/images/Intro/12_Snipping.png)
+
+![](/images/Intro/13_ClickAndDrag.png)
+
+![](/images/Intro/14_DensityAgain.png)
+
+![](/images/Intro/15_MoveByClickAndDrag.png)
+
+![](/images/Intro/16_ClickToSwitchAxis.png)
+
+![](/images/Intro/17_ClickToSwitchY.png)
+
+![](/images/Intro/18_FirstPlot.png)
+
+![](/images/Intro/19_FirstGates.png)
+
+![](/images/Intro/20_FirstGateNaming.png)
+
+![](/images/Intro/21_DownHierarchy.png)
+
+![](/images/Intro/22_ParentAndChild.png)
+
+![](/images/Intro/23_Singlets.png)
+
+![](/images/Intro/24_SingletGateCreation.png)
+
+![](/images/Intro/25_NewGatesSmooshing.png)
+
+![](/images/Intro/26_Rearranged.png)
+
+![](/images/Intro/27_TcellSubsets.png)
+
+![](/images/Intro/28_Gates.png)
+
+![](/images/Intro/29_SwitchingBetween.png)
+
+![](/images/Intro/30_AdjustingGates.png)
+
+![](/images/Intro/31_Align.png)
+
+![](/images/Intro/32_GateView.png)
