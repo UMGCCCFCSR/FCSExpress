@@ -1,21 +1,21 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Placeholder",
-    "section": "",
-    "text": "This is a placeholder"
-  },
-  {
     "objectID": "course/index.html",
     "href": "course/index.html",
-    "title": "Placeholder",
+    "title": "How-to-use FCS Express",
     "section": "",
-    "text": "This is a placeholder",
+    "text": "Installation\nFirst, navigate to the FCSExpress website, and select the download optiom for your operating system (Windows or MacOS)\n\n\n\n\n\n\n\n\n\nWith FCSExpress now installed, proceed to open the software.\n\n\nGetting Started",
     "crumbs": [
       "Landing",
       "Tutorial",
       "Getting Started"
     ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Placeholder",
+    "section": "",
+    "text": "This is a placeholder"
   }
 ]

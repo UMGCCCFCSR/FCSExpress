@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  render:
+  -  index.qmd
+  -  course/index.qmd
 website:
   google-analytics: "G-LZ35J3XE4D"
   announcement: 
