@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>How-to-use FCS Express – UMGCCC FCSR</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -36,10 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-8eaec6b9941db0f18eecf13b95a46332.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-71c65693e7f4a163fb8d18487164b5a3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -89,7 +92,8 @@ gtag('config', 'G-LZ35J3XE4D', { 'anonymize_ip': true});
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/hex.svg" alt="" class="navbar-logo">
+    <img src="../images/hex.svg" alt="" class="navbar-logo light-content">
+    <img src="../images/hex.svg" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">UMGCCC FCSR</span>
@@ -190,13 +194,18 @@ gtag('config', 'G-LZ35J3XE4D', { 'anonymize_ip': true});
 
 <section id="installation" class="level1">
 <h1>Installation</h1>
-<p>First, navigate to the <a href="https://denovosoftware.com/full-access/download-landing/">FCSExpress</a> website, and select the download optiom for your operating system (Windows or MacOS)</p>
+<p>First, navigate to the <a href="https://denovosoftware.com/full-access/download-landing/">FCSExpress</a> website, and select the download option for your operating system (Windows or MacOS)</p>
 <p><img src="../images/Installation/00_Download.png" class="img-fluid"></p>
+<p>Once you select the download option, and initiate the installation on your device, you will see the following pop up.</p>
 <p><img src="../images/Installation/01_Install.png" class="img-fluid"></p>
+<p>You must accept the license agreement, and privacy policy of FCS Express.</p>
 <p><img src="../images/Installation/02_License.png" class="img-fluid"></p>
 <p><img src="../images/Installation/03_Privacy.png" class="img-fluid"></p>
+<p>You will then be asked if you will be using FCS Express with a Standalone or Network License. Select Standalone, and hit next.</p>
 <p><img src="../images/Installation/04_StandAlone.png" class="img-fluid"></p>
+<p>Select a location for FCS Express to be installed, and hit next.</p>
 <p><img src="../images/Installation/05_ProgramFiles.png" class="img-fluid"></p>
+<p>Select install to install FCS Express.</p>
 <p><img src="../images/Installation/06_Install.png" class="img-fluid"></p>
 <p><img src="../images/Installation/07_Patience.png" class="img-fluid"></p>
 <p><img src="../images/Installation/08_Done.png" class="img-fluid"></p>
@@ -204,36 +213,78 @@ gtag('config', 'G-LZ35J3XE4D', { 'anonymize_ip': true});
 </section>
 <section id="getting-started" class="level1">
 <h1>Getting Started</h1>
+<p>Now that FCS Express has been installed, upon opening the application you will see the following screen.</p>
 <p><img src="../images/Intro/01_Landing.png" class="img-fluid"></p>
+<p>To check for updates to the software, select the updates button. Ensure that your installation is up to date.</p>
 <p><img src="../images/Intro/02_CheckingForUpdates.png" class="img-fluid"></p>
+<p>Next, select the New Layout option.</p>
 <p><img src="../images/Intro/03_NewLayout.png" class="img-fluid"></p>
+<p>After selecting New Layout, the program will open to the following screen.</p>
 <p><img src="../images/Intro/04_OpenView.png" class="img-fluid"></p>
+<p>In the file dropdown, select the Save As option.</p>
 <p><img src="../images/Intro/05_FileDropdown.png" class="img-fluid"></p>
 <p><img src="../images/Intro/06_SaveAs.png" class="img-fluid"></p>
+<p>Select the location (folder) on your device where you would like to save your FCS Express files.</p>
 <p><img src="../images/Intro/07_SaveLocation.png" class="img-fluid"></p>
+</section>
+<section id="creating-your-first-plot" class="level1">
+<h1>Creating Your First Plot</h1>
+<p>Once you have selected a Save location, select the add data file option within the data list menu.</p>
 <p><img src="../images/Intro/08_AddDataFile.png" class="img-fluid"></p>
+<p>Select the data files (.fcs format) which you wish to use, and open them.</p>
 <p><img src="../images/Intro/09_OpenDataFiles.png" class="img-fluid"></p>
 <p><img src="../images/Intro/10_DataLoaded.png" class="img-fluid"></p>
+<p>Once your data files have loaded, select a file you wish to analyze and click on the density plot option</p>
 <p><img src="../images/Intro/11_Density.png" class="img-fluid"></p>
+<p>Click and drag anywhere within the page to open a density plot of the data file you have selected</p>
 <p><img src="../images/Intro/12_Snipping.png" class="img-fluid"></p>
 <p><img src="../images/Intro/13_ClickAndDrag.png" class="img-fluid"></p>
+<p>You can also create a plot by first selecting the data file, and dragging that highlighted data file into the page area</p>
 <p><img src="../images/Intro/14_DensityAgain.png" class="img-fluid"></p>
 <p><img src="../images/Intro/15_MoveByClickAndDrag.png" class="img-fluid"></p>
+<p>Once you have created a graph, you may click on the axis labels to switch the axis to another parameter of your data. For your first graph, select FSC-A for the X axis.</p>
 <p><img src="../images/Intro/16_ClickToSwitchAxis.png" class="img-fluid"></p>
+<p>Click the label for the Y axis, and select for SSC-A to be displayed on that axis.</p>
 <p><img src="../images/Intro/17_ClickToSwitchY.png" class="img-fluid"></p>
+<p>Now you have created your first plot. It should look something like this:</p>
 <p><img src="../images/Intro/18_FirstPlot.png" class="img-fluid"></p>
+</section>
+<section id="gating" class="level1">
+<h1>Gating</h1>
+<p>Now that you have created your first plot, navigate to the Gating menu in the top ribbon. In the gating menu, click on the Polygon gate option</p>
 <p><img src="../images/Intro/19_FirstGates.png" class="img-fluid"></p>
+<p>Draw a gate around the population in your first plot. Once you close the polygon, a gate pop-up menu will open. It will ask you to name your newly-created gate; you can name this gate “Scatter”. Below the naming option, there is an option to choose the gate color. Make sure the gate color will be easily visible on the plot, you can change the color by clicking on the color bar.</p>
+<p>Once you are happy with your gate name and color, click OK to close the pop-up menu.</p>
 <p><img src="../images/Intro/20_FirstGateNaming.png" class="img-fluid"></p>
+<p>To create a plot of the events within your first gate, click the gate, then drag it to an empty area of the page. This should open up a new density plot.</p>
 <p><img src="../images/Intro/21_DownHierarchy.png" class="img-fluid"></p>
+<p>Your new plot will have the name of the gate which you are within, listed with the file name/plot title. If you look at your first plot, it will say “No Gate”.</p>
 <p><img src="../images/Intro/22_ParentAndChild.png" class="img-fluid"></p>
+<p>Next, click on the Y axis of the second plot and change it to display FSC-H.</p>
 <p><img src="../images/Intro/23_Singlets.png" class="img-fluid"></p>
+<p>Select the Polygon gate option from within the Gating menu again, draw a gate around your singlet population. Within the gate pop-up menu, label your gate and choose a gate color.</p>
 <p><img src="../images/Intro/24_SingletGateCreation.png" class="img-fluid"></p>
+<p>Repeat the process of clicking your gate and dragging to an empty area on the page to create more nested gates. You can see the order of your gates on the side in the Gate Navigator window, below your Data List.</p>
 <p><img src="../images/Intro/25_NewGatesSmooshing.png" class="img-fluid"></p>
+<p>You can click on your plots and drag them to move or resize, until they are laid out in a way that is clear to you.</p>
 <p><img src="../images/Intro/26_Rearranged.png" class="img-fluid"></p>
+<p>If there are multiple populations of interest within one plot, you can create gates around each population, which are all nested within one parent gate. For example, here the axes of the density plot are CD8 and CD4 marker intensity, and this plot shows events within the gate “Tcells” which was drawn from the graph of CD45 versus CD3.</p>
 <p><img src="../images/Intro/27_TcellSubsets.png" class="img-fluid"></p>
+<p>Gates at the same level in the gating hierarchy will display as aligned vertically in the Gate Navigator.</p>
 <p><img src="../images/Intro/28_Gates.png" class="img-fluid"></p>
+</section>
+<section id="analyzing-data" class="level1">
+<h1>Analyzing Data</h1>
+<p>Now that you have created your basic plots and gates, you may wish to look at these markers and gate on populations of interest for another data file. To analyze data from another file, simply click on that file in your Data list.</p>
+<p>You may see a pop up which warns that you do not have Raw (not unmixed) files for that data, you can simply ignore this pop up and continue to click in to the other data file.</p>
 <p><img src="../images/Intro/29_SwitchingBetween.png" class="img-fluid"></p>
+<p>You may wish to adjust the gates for your other data file. If you want these changes to your gate to only apply for this data, you must make the gate a Data Specific Gate. To do this, navigate to the Gating menu in the top ribbon, click on the gate, and click on the Data Specific Gate button in the gating menu.</p>
+<p>To check if you successfully designated your gate to this data file, check to make sure your gate is listed as data specific in the gate navigator.</p>
 <p><img src="../images/Intro/30_AdjustingGates.png" class="img-fluid"></p>
+</section>
+<section id="organization-graphics" class="level1">
+<h1>Organization &amp; Graphics</h1>
+<p>To align your plots, select them and return to the Home top ribbon menu, and select the align button. You can align your plots horizontally, vertically, etc.</p>
 <p><img src="../images/Intro/31_Align.png" class="img-fluid"></p>
 <p><img src="../images/Intro/32_GateView.png" class="img-fluid"></p>
 
@@ -292,13 +343,14 @@ gtag('config', 'G-LZ35J3XE4D', { 'anonymize_ip': true});
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
