@@ -1,6 +1,14 @@
 ---
 title: "How-to-use FCS Express"
+author:
+  - name: Cyrus Martinian
+    orcid: 0000-0000-0000-0000
+  - name: David Rach
+    orcid: 
+date: 07-14-2026
 format: html
+toc: true
+toc-depth: 5
 ---
 
 # Installation
@@ -9,9 +17,13 @@ First, navigate to the [FCSExpress](https://denovosoftware.com/full-access/downl
 
 ![](/images/Installation/00_Download.png)
 
+<br>
+
 Once you select the download option, and initiate the installation on your device, you will see the following pop up.
 
 ![](/images/Installation/01_Install.png)
+
+<br>
 
 You must accept the license agreement, and privacy policy of FCS Express.
 
@@ -19,13 +31,19 @@ You must accept the license agreement, and privacy policy of FCS Express.
 
 ![](/images/Installation/03_Privacy.png)
 
+<br>
+
 You will then be asked if you will be using FCS Express with a Standalone or Network License. Select Standalone, and hit next. 
 
 ![](/images/Installation/04_StandAlone.png)
 
+<br>
+
 Select a location for FCS Express to be installed, and hit next. 
 
 ![](/images/Installation/05_ProgramFiles.png)
+
+<br>
 
 Select install to install FCS Express.
 
@@ -35,7 +53,11 @@ Select install to install FCS Express.
 
 ![](/images/Installation/08_Done.png)
 
+<br>
+
 With FCSExpress now installed, proceed to open the software. 
+
+<br>
 
 # Getting Started
 
@@ -43,17 +65,25 @@ Now that FCS Express has been installed, upon opening the application you will s
 
 ![](/images/Intro/01_Landing.png)
 
+<br>
+
 To check for updates to the software, select the updates button. Ensure that your installation is up to date. 
 
 ![](/images/Intro/02_CheckingForUpdates.png)
+
+<br>
 
 Next, select the New Layout option. 
 
 ![](/images/Intro/03_NewLayout.png)
 
+<br>
+
 After selecting New Layout, the program will open to the following screen.
 
 ![](/images/Intro/04_OpenView.png)
+
+<br>
 
 In the file dropdown, select the Save As option.
 
@@ -61,9 +91,13 @@ In the file dropdown, select the Save As option.
 
 ![](/images/Intro/06_SaveAs.png)
 
+<br>
+
 Select the location (folder) on your device where you would like to save your FCS Express files.
 
 ![](/images/Intro/07_SaveLocation.png)
+
+<br>
 
 # Creating Your First Plot
 
@@ -71,15 +105,21 @@ Once you have selected a Save location, select the add data file option within t
 
 ![](/images/Intro/08_AddDataFile.png)
 
+<br>
+
 Select the data files (.fcs format) which you wish to use, and open them.
 
 ![](/images/Intro/09_OpenDataFiles.png)
 
 ![](/images/Intro/10_DataLoaded.png)
 
+<br>
+
 Once your data files have loaded, select a file you wish to analyze and click on the density plot option
 
 ![](/images/Intro/11_Density.png)
+
+<br>
 
 Click and drag anywhere within the page to open a density plot of the data file you have selected
 
@@ -87,23 +127,33 @@ Click and drag anywhere within the page to open a density plot of the data file 
 
 ![](/images/Intro/13_ClickAndDrag.png)
 
+<br>
+
 You can also create a plot by first selecting the data file, and dragging that highlighted data file into the page area 
 
 ![](/images/Intro/14_DensityAgain.png)
 
 ![](/images/Intro/15_MoveByClickAndDrag.png)
 
+<br>
+
 Once you have created a graph, you may click on the axis labels to switch the axis to another parameter of your data. For your first graph, select FSC-A for the X axis.
 
 ![](/images/Intro/16_ClickToSwitchAxis.png)
+
+<br>
 
 Click the label for the Y axis, and select for SSC-A to be displayed on that axis.
 
 ![](/images/Intro/17_ClickToSwitchY.png)
 
+<br>
+
 Now you have created your first plot. It should look something like this:
 
 ![](/images/Intro/18_FirstPlot.png)
+
+<br>
 
 # Gating
 
@@ -111,43 +161,63 @@ Now that you have created your first plot, navigate to the Gating menu in the to
 
 ![](/images/Intro/19_FirstGates.png)
 
+<br>
+
 Draw a gate around the population in your first plot. Once you close the polygon, a gate pop-up menu will open. It will ask you to name your newly-created gate; you can name this gate "Scatter". Below the naming option, there is an option to choose the gate color. Make sure the gate color will be easily visible on the plot, you can change the color by clicking on the color bar. 
 
 Once you are happy with your gate name and color, click OK to close the pop-up menu.
 
 ![](/images/Intro/20_FirstGateNaming.png)
 
+<br>
+
 To create a plot of the events within your first gate, click the gate, then drag it to an empty area of the page. This should open up a new density plot. 
 
 ![](/images/Intro/21_DownHierarchy.png)
+
+<br>
 
 Your new plot will have the name of the gate which you are within, listed with the file name/plot title. If you look at your first plot, it will say "No Gate".
 
 ![](/images/Intro/22_ParentAndChild.png)
 
+<br>
+
 Next, click on the Y axis of the second plot and change it to display FSC-H.  
 
 ![](/images/Intro/23_Singlets.png)
+
+<br>
 
 Select the Polygon gate option from within the Gating menu again, draw a gate around your singlet population. Within the gate pop-up menu, label your gate and choose a gate color.
 
 ![](/images/Intro/24_SingletGateCreation.png)
 
+<br>
+
 Repeat the process of clicking your gate and dragging to an empty area on the page to create more nested gates. You can see the order of your gates on the side in the Gate Navigator window, below your Data List. 
 
 ![](/images/Intro/25_NewGatesSmooshing.png)
+
+<br>
 
 You can click on your plots and drag them to move or resize, until they are laid out in a way that is clear to you. 
 
 ![](/images/Intro/26_Rearranged.png)
 
+<br>
+
 If there are multiple populations of interest within one plot, you can create gates around each population, which are all nested within one parent gate. For example, here the axes of the density plot are CD8 and CD4 marker intensity, and this plot shows events within the gate "Tcells" which was drawn from the graph of CD45 versus CD3. 
 
 ![](/images/Intro/27_TcellSubsets.png)
 
+<br>
+
 Gates at the same level in the gating hierarchy will display as aligned vertically in the Gate Navigator.
 
 ![](/images/Intro/28_Gates.png)
+
+<br>
 
 # Analyzing Data
 
@@ -157,11 +227,15 @@ You may see a pop up which warns that you do not have Raw (not unmixed) files fo
 
 ![](/images/Intro/29_SwitchingBetween.png)
 
+<br>
+
 You may wish to adjust the gates for your other data file. If you want these changes to your gate to only apply for this data, you must make the gate a Data Specific Gate. To do this, navigate to the Gating menu in the top ribbon, click on the gate, and click on the Data Specific Gate button in the gating menu. 
 
 To check if you successfully designated your gate to this data file, check to make sure your gate is listed as data specific in the gate navigator.
 
 ![](/images/Intro/30_AdjustingGates.png)
+
+<br>
 
 # Organization & Graphics
 
@@ -170,3 +244,11 @@ To align your plots, select them and return to the Home top ribbon menu, and sel
 ![](/images/Intro/31_Align.png)
 
 ![](/images/Intro/32_GateView.png)
+
+<br>
+
+# Additional Resources
+
+[FCSExpress Website](https://denovosoftware.com/full-access/)
+
+[FCSExpress YouTube](https://www.youtube.com/denovosoftware)

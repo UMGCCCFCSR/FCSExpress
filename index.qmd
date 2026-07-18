@@ -1,6 +1,14 @@
 ---
-title: "Placeholder"
-format: html
+title: ""
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta http-equiv="refresh" content="0; url=course/index.html">
 ---
 
-This is a placeholder
+<script>
+  window.location.href = "course/index.html";
+</script>
+
+If you are not redirected automatically, [click here](course/index.html).
